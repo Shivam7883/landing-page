@@ -1,8 +1,7 @@
-body{
-    justify-content: center;
-    align-items: center;
-    
-}
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+  }
 .s1{
     font-family:"roboto",sans-serif;
     background-color: #1f2937;
@@ -113,10 +112,8 @@ a{
     align-items: center;
     font-style: italic;
     margin-top: 50px;
-    margin-left: 200px;
-    margin-right: 200px;
-
-
+    margin: 0 20px;
+    text-align: center;
 }
 .foot{
     display: flex;
@@ -146,6 +143,57 @@ a{
     margin-top: 70px; 
 }
 
+@media (max-width: 768px) {
+    .header {
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+  
+    ul {
+      padding-right: 0;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .content {
+      flex-direction: column;
+      padding: 10px;
+    }
+  
+    .image {
+      padding-left: 0;
+      align-items: center;
+    }
+  
+    .img1 {
+      width: 90%;
+      height: auto;
+    }
+  
+    .img-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .img-box {
+      margin: 20px 10px;
+      width: 90%;
+      height: auto;
+    }
+  
+    .footer {
+      flex-direction: column;
+      align-items: center;
+      margin: 20px;
+      text-align: center;
+    }
+  
+    .btn2 {
+      margin-top: 20px;
+    }
+  }
+  
 
 
 
